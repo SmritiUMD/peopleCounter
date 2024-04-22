@@ -1,0 +1,55 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    color: rgb(8, 8, 8);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+.container{
+    background: rgb(255, 254, 254);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 10px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(35, 2, 100);
+    font-style: italic;
+}
+
+#save-btn {
+    background: darkgreen;
+    font-style: italic;
+}
+
+#save-el {
+    margin-top: 20px; /* Add some space between the save button and the previous entries */
+    color: rgb(14, 12, 12); /* Set the text color to white */
+}
+
+
